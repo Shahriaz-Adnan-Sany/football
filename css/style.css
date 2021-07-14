@@ -29,6 +29,9 @@ a {
 .section-pad-all {
     padding: 50px 150px; 
 }
+.padding-right-20 {
+    padding-right: 20px;
+}
 /* -- --- -- Heading Styles -- --- -- */
 
 .big-heading {
@@ -42,6 +45,7 @@ a {
     line-height: 60px;
     font-weight: 700;
     color: #0A0826;
+    margin: 10px 0px;
 }
 .small-heading {
     font-size: 28px;
@@ -74,6 +78,12 @@ button {
 }
 .flex-coloum-50 {
     width: 50%;
+} 
+
+/* -- --- -- Icon Style -- --- -- */
+.icon-style {
+    margin-right: 10px;
+    align-items: center;
 }
 
 /* -- --- -- Header Css Styles Starts -- --- -- */
@@ -99,9 +109,6 @@ header {
     color: #FFFFFF;
     padding-right: 30px;
     font-weight: 500;
-}
-.fas {
-    margin-right: 10px;
 }
 .header-banner {
     width: 560.01px;
@@ -129,19 +136,19 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px;
-    
+   
 }
 .single-player {
-    width: 330px;
+    width: 310px;
     height: 470px;
-    padding: 20px 20px;
+    padding: 15px;
     border: 1px solid #2D25A0;
     border-radius: 10px;
     box-shadow: 1px 2px 5px 2px grey;
 }
 .player-img {
-    width: 330px;
-    height: 260px;
+    width: 300px;
+    height: 250px;
     
 }
 .player-img img {
@@ -153,3 +160,86 @@ header {
     margin: 22px 0;
 }
 /* -- --- -- Players Css Styles Ends -- --- -- */
+
+/* -- --- -- Match Css Styles Starts -- --- -- */
+
+.match-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
+.match-info>a>i {
+    margin-left: 8px;
+    align-items: center;
+}
+.paragraph-style {
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.match-image {
+    width: 530px;
+    height: 420px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.match-image img {
+    width: 100%;
+    height: 100%;    
+}
+/* -- --- -- Match Css Styles Ends -- --- -- */
+
+/* -- --- -- About Us CSS Style Starts -- --- -- */
+
+.about-video {
+    border: 2px solid #2D25A0;
+    cursor: pointer;
+    height: 315px;
+    border-radius: 5px;
+}
+.about-video iframe {
+    height: 100%;
+
+}
+.about-heading {
+    padding: 0px 50px;
+}
+
+/* -- --- -- About Us CSS Style Ends -- --- -- */
+
+/* -- --- -- Footer CSS Starts Here -- --- -- */
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(1fr); 
+    justify-content: center;
+}
+.footer-logo {
+    width: 483.87px;
+    height: 110px;
+}
+.footer-logo img {
+    width: 100%;
+}
+
+.footer-menu {
+    text-align: center;
+    position: relative;
+}
+.footer-menu>span {
+    padding: 10px;
+    text-align: center;
+}
+.footer-menu>span img {
+    width: 32px;
+    height: 32px;
+}
+.copyright-text {
+    text-align: center;
+    position: relative;
+}
+.copyright-text p {
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+}
+/* -- --- -- Footer CSS Ends Here -- --- -- */
