@@ -110,6 +110,10 @@ header {
     padding-right: 30px;
     font-weight: 500;
 }
+.menu-icon {
+    color: #FFFFFF;
+    display: none;
+}
 .header-banner {
     width: 560.01px;
     height: 450px; 
@@ -282,3 +286,105 @@ header {
     color: black;
 }
 /* -- --- -- Footer CSS Ends Here -- --- -- */
+
+/* -- --- -- Mobile Responsive CSS Starts Here -- --- -- */
+ /* -- --- -- Header Mobile Respomsive CSS Starts Here -- --- -- */
+
+@media only screen and (max-width:688px) {
+    .header-content, .header-conttent-2  {
+        padding: 0px;
+    }
+    .header-top, .header-bottom {
+        display: inline;
+        text-align: center;
+        margin: 0px 10px;
+    }
+    .header-menu>nav {
+        display: none;
+    }
+    .menu-icon {
+        display: block
+    }
+    .login-button {
+        display: block;
+        margin-top: 20px;
+    }
+    .heading-part {
+        display: block;
+    }
+    .heading-part h1 {
+        font-size: 32px;
+        margin: 0px;
+    }
+    .header-banner {
+        width: 400px;
+        height: 280px;
+        display: inline-block;
+        margin: 0px;
+        padding-top: 30px;
+    }
+    .header-banner img {
+        width: 100%;
+        height: 100%;   
+    }
+}
+
+/* -- --- -- Header Mobile Respomsive CSS Ends Here -- --- -- */
+
+/* -- --- -- Players Mobile Respomsive CSS Ends Here -- --- -- */
+
+@media only screen and (max-width:688px) {
+    .player-info {
+        padding: 20px 40px;
+        grid-template-columns: repeat(1, 1fr);  
+        justify-content: center;
+        align-items: center; 
+        
+    }
+    .single-player {
+        width: auto;
+        margin-left: 20px; 
+    }
+}
+
+/* -- --- -- Players Mobile Respomsive CSS Ends Here -- --- -- */
+
+/* -- --- -- Match Mobile Respomsive CSS Starts Here -- --- -- */
+@media only screen and (max-width:688px) {
+    .match-container {
+        padding: 10px 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .match-info {
+        display: block;
+        margin: 20px;
+    }
+    .match-info>h2 {
+        font-size: 24px;
+        padding-right: 10px;
+        margin: 0;
+    }
+    .match-image, .match-image-2 {
+        width: 400px;
+        height: 280px;
+        display: inline-block;
+        margin: 0px;
+        padding-top: 30px;
+    }
+    .match-image, .match-image-2 img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+/* -- --- -- Match Mobile Respomsive CSS Ends Here -- --- -- */
+
+
+
+
+/* -- --- -- Header Mobile Respomsive CSS Ends Here -- --- -- */
+/* -- --- -- Header Mobile Respomsive CSS Ends Here -- --- -- */
+
+
+/* -- --- -- Mobile Responsive CSS Ends Here -- --- -- */
