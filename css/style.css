@@ -354,26 +354,43 @@ header {
     .match-container {
         padding: 10px 20px;
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
     }
     .match-info {
         display: block;
-        margin: 20px;
+        margin: 50px;
     }
     .match-info>h2 {
         font-size: 24px;
-        padding-right: 10px;
-        margin: 0;
+        padding-right: 100px;
     }
-    .match-image, .match-image-2 {
+    .match-info>p {
+        font-size: 14px;
+        padding-right: 100px;
+
+    }
+    .match-media {
         width: 400px;
         height: 280px;
         display: inline-block;
         margin: 0px;
-        padding-top: 30px;
+        justify-content:left;
+        padding-right: 30px;
     }
-    .match-image, .match-image-2 img {
+    .match-image {
+        width: 300px;
+        height: 200px;
+        display: block;
+    }
+    .match-image>img {
         width: 100%;
         height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .match-image-2 {
+        display: none;
     }
 }
 
@@ -383,8 +400,39 @@ header {
 
 
 
-/* -- --- -- Header Mobile Respomsive CSS Ends Here -- --- -- */
-/* -- --- -- Header Mobile Respomsive CSS Ends Here -- --- -- */
+/* -- --- -- About us Mobile Respomsive CSS Starts Here -- --- -- */
+@media only screen and (max-width:688px) {
+    .about-content {
+        padding: 0px;
+        display: inline; 
+    }
+    .about-video {
+        display: block;
+        width: 250px;
+        height: 200px;
+    }
+    .about-video iframe {
+        width: 100%;
+    }
+    .about-info {
+        display: inline-block;
+    }
+    .about-info> h2 {
+        font-size: 24px;
+        padding-right: 100px;
+    }
+}
+
+/* -- --- --  About us Mobile Respomsive CSS Ends Here -- --- -- */
+
+/* -- --- --  FOOTER Mobile Respomsive CSS Starts Here -- --- -- */
+@media only screen and (max-width:688px) {
+    .footer {
+        width: 400px;
+    }
+}
+
+/* -- --- --  Footer Mobile Respomsive CSS Ends Here -- --- -- */
 
 
 /* -- --- -- Mobile Responsive CSS Ends Here -- --- -- */
