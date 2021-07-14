@@ -263,14 +263,15 @@ header {
     text-align: center;
     position: relative;
 }
-.footer-menu>span {
-    padding: 10px;
-    text-align: center;
+
+.footer-menu a {
+    padding: 0px 10px;
 }
-.footer-menu>span img {
+.footer-menu a>img {
     width: 32px;
     height: 32px;
 }
+
 .copyright-text {
     text-align: center;
     position: relative;
