@@ -1,3 +1,92 @@
+/* -- --- -- Common Css Styles -- --- -- */
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6C6C6C;
+}
+
+/* -- --- -- Margin CSS Styles -- --- -- */
+
+.margin-tb-40 {
+    margin: 40px 0px;
+}
+
+/* -- --- -- Padding CSS Styles */
+
+.pad-tb-40 {
+    padding: 40px 0px;
+}
+
+/* -- --- -- Heading Styles -- --- -- */
+
+.big-heading {
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.midium-heading {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #0A0826;
+}
+.small-heading {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #18191F;
+}
+
+/* -- --- -- Button CSS Styles -- --- -- */
+button {
+    border: 0px;
+}
+.button-style {
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    Font size: 16px;
+}
+/* -- --- -- Flex CSS Styles */
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-coloum-50 {
+    width: 50%;
+}
+
+/* -- --- -- Header Css Styles -- --- -- */
+header {
+    background-color: #2D25A0;
+}
+.header-container {
+    padding: 0px 150px;
+}
+.header-top>.header-menu>nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.header-top>.header-menu>nav>ul li {
+    display: inline;
+}
+.header-top>.header-menu>nav>ul>li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 6px;
+    font-weight: 500;
+}
+
+.login-button a {
+    text-decoration: none;
+}
+.login-button>a>i {
+    margin-right: 10px;
 }
