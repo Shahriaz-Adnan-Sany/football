@@ -9,7 +9,9 @@ p {
     line-height: 24px;
     color: #6C6C6C;
 }
-
+a {
+    text-decoration: none;
+}
 /* -- --- -- Margin CSS Styles -- --- -- */
 
 .margin-tb-40 {
@@ -25,19 +27,19 @@ p {
 /* -- --- -- Heading Styles -- --- -- */
 
 .big-heading {
-    font-size: 64px;
+    font-size: 60px;
     line-height: 80px;
     font-weight: 700;
     color: #FFFFFF;
 }
 .midium-heading {
-    font-size: 48px;
+    font-size: 32px;
     line-height: 60px;
     font-weight: 700;
     color: #0A0826;
 }
 .small-heading {
-    font-size: 28px;
+    font-size: 26px;
     line-height: 40px;
     font-weight: 700;
     color: #18191F;
@@ -51,9 +53,16 @@ button {
     background-color: #E02C6D;
     color: #FFFFFF;
     padding: 10px 20px;
-    Font size: 16px;
+    transition: 1s;
+    
 }
-/* -- --- -- Flex CSS Styles */
+.button-style:hover {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    transform: scale(.5,.5);
+    transition: 1s;
+}
+/* -- --- -- Flex CSS Styles -- --- -- */
 .flexbox {
     display: flex;
     justify-content: space-between;
@@ -62,12 +71,16 @@ button {
     width: 50%;
 }
 
-/* -- --- -- Header Css Styles -- --- -- */
+/* -- --- -- Header Css Styles Starts -- --- -- */
 header {
     background-color: #2D25A0;
 }
 .header-container {
     padding: 0px 150px;
+}
+.header-top {
+    width: 100%;
+    align-items: center;
 }
 .header-top>.header-menu>nav ul {
     list-style-type: none;
@@ -79,14 +92,28 @@ header {
 }
 .header-top>.header-menu>nav>ul>li a {
     color: #FFFFFF;
-    text-decoration: none;
-    padding: 10px 6px;
+    padding-right: 30px;
     font-weight: 500;
 }
-
-.login-button a {
-    text-decoration: none;
-}
-.login-button>a>i {
+.fas {
     margin-right: 10px;
 }
+.header-banner {
+    width: 560.01px;
+    height: 450px; 
+    padding-left: 20px;
+}
+.header-banner img {
+    width: 500.01px;
+    height: 400px;
+    transition: 1s;
+    padding-left: 20px;
+}
+.header-banner img:hover {
+    width: 555.01px;
+    height: 440px;
+    transform: scale(.7);
+    transition: 1.s;
+}
+
+/* -- --- -- Header Css Styles Ends -- --- -- */
