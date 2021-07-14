@@ -180,12 +180,50 @@ header {
     width: 530px;
     height: 420px;
     border-radius: 10px;
-    padding-left: 15px;
 }
 .match-image img {
     width: 100%;
     height: 100%;    
 }
+.match-image-2 {
+    width: 530px;
+    height: 420px;
+    top: 0;
+    position: absolute;
+    border-radius: 10px;
+    transform: rotateY(180deg)
+}
+.match-image-2 img {
+    width: 100%;
+    height: 100%;    
+}
+.match-media {
+    background-color: transparent;
+    width: 530px;
+    height: 420px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+}
+.image-iffect {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+.match-media:hover .image-iffect {
+    transform: rotateY(180deg);
+}
+
+.match-image .match-image-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
 /* -- --- -- Match Css Styles Ends -- --- -- */
 
 /* -- --- -- About Us CSS Style Starts -- --- -- */
